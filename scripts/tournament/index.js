@@ -50,6 +50,6 @@ stream.write( '"winPoints": ' + JSON.stringify(tournament.winPoints) + ",\n");
 stream.write( '"drawPoints": ' + JSON.stringify(tournament.drawPoints) + ",\n");
 stream.write( '"lossPoints": ' + JSON.stringify(tournament.lossPoints) + ",\n");
 stream.write( '"players": ' + JSON.stringify(tournament.players) + ",\n");
-stream.write( '"rounds": ' + JSON.stringify(tournament.rounds) + ",\n");
+stream.write( '"rounds": ' + JSON.stringify(tournament.rounds) + "\n");
 stream.write( "}");
 stream.end();
