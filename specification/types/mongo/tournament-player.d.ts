@@ -15,7 +15,7 @@
 interface ITournamentPlayer {
     id: string,             // Club Member Id
     name: string,
-    rate: string,
+    rate: number,
     colors: string[],       // (W)hite, (B)lack, (B)ye
     opponents: string[],
     score: number
