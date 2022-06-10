@@ -25,20 +25,20 @@ import {ITournamentGame} from "./tournament-game";
  * - The ITournament.director can change the ITournament.director assignment;
  */
 
-interface ITournament {
-    id: string,           // 8 chars, random string
-    director: string,     // Club Member ID
-    name: string,
-    start: Date,
-    end: Date,
-    maxPlayers: number,
-    type: string,
-    numberOfRounds: number,
-    winPoints: number,
-    drawPoints: number,
-    lossPoints: number,
-    players: ITournamentPlayer[]
-    rounds: ITournamentGame[][]
+type ITournament = {
+    id: string;           // 8 chars, random string
+    director: string;     // Club Member ID
+    name: string;
+    start: Date;
+    end: Date;
+    maxPlayers: number;
+    type: string;
+    numberOfRounds: number;
+    winPoints: number;
+    drawPoints: number;
+    lossPoints: number;
+    players: ITournamentPlayer[];
+    rounds: ITournamentGame[][];
 }
 
 export type { ITournament }

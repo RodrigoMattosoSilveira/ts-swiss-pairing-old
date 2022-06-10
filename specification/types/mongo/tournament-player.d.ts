@@ -12,12 +12,12 @@
  * - Adds the TournamentT.winPoints or drawPoints, to each players ITournamentPlayer score, based on the game result;
  */
 
-interface ITournamentPlayer {
-    id: string,             // Club Member Id
-    name: string,
-    rate: number,
-    colors: string[],       // (W)hite, (B)lack, (B)ye
-    opponents: string[],
+type ITournamentPlayer = {
+    id: string;             // Club Member Id
+    name: string;
+    rate: number;
+    colors: string[];       // (W)hite, (B)lack, (B)ye
+    opponents: string[];
     score: number
 }
 
