@@ -16,7 +16,7 @@ type ITournamentPlayer = {
     id: string;             // Club Member Id
     name: string;
     rate: number;
-    colors: string[];       // (W)hite, (B)lack, (B)ye
+    colors: string[];       // (W)hite, (B)lack, (B)ye, (F)orfeit
     opponents: string[];
     score: number
 }

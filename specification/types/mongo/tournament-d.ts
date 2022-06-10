@@ -39,6 +39,7 @@ type ITournament = {
     lossPoints: number;
     players: ITournamentPlayer[];
     rounds: ITournamentGame[][];
+    status: string; // planned, ongoing, completed
 }
 
 export type { ITournament }
