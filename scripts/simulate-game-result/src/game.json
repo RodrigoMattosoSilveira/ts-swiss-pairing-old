@@ -1,0 +1,22 @@
+{
+  "id": "12345678",
+  "whitePiecesPlayer": {
+    "id": "abcdefh",
+    "name": "Carlson, Magnus",
+    "rate": 1500,
+    "colors": [],
+    "opponents": [],
+    "score": 0
+  },
+  "whitePiecesPlayerScore": 0,
+  "blackPiecesPlayer": {
+    "id": "bcdefhi",
+    "name": "Alekhine, Alexander",
+    "rate": 1500,
+    "colors": [],
+    "opponents": [],
+    "score": 0
+  },
+  "blackPiecesPlayerScore": 0,
+  "status": "underway"
+}
