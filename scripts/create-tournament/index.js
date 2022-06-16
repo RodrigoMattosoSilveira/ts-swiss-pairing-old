@@ -18,7 +18,8 @@ for (let i = 0; i < 25; i++) {
         rate: club_members[i].rating,
         colors: [], // (W)hite, (B)lack, (B)ye
         opponents: [],
-        score: 0
+        score: 0,
+        byesOrForfeits: 0
     }
     tournamentPlayers.push(tournamentPlayer)
 }
